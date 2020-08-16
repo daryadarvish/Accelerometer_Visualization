@@ -10,7 +10,7 @@ String[] data;
 
 
 void setup() {
-  size(1250,800,P3D);
+  size(1000,500,P3D);
   noStroke();
   colorMode(RGB, 256);
   
@@ -73,7 +73,7 @@ void draw() {
   translate(width/2, height/1.5, -50);
   rotateX(-x_accel_df -(PI/2));
   rotateY(-y_accel_df);
-  draw_rect_prism(255, 0, 0);
+  draw_rect_prism(25,178,255);
   popMatrix();
   
   pushMatrix();
